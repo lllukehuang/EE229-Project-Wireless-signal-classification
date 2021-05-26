@@ -32,6 +32,6 @@ This project shows the complete process from signal cutting to classification. D
 
 You can download the whole dataset at https://jbox.sjtu.edu.cn/l/oFjsbK.
 
-#### Note
+#### Reference
 
 The main code of deep learning method references the [Detectron2](https://github.com/facebookresearch/detectron2/tree/master/detectron2) platform and [Darknet](https://github.com/AlexeyAB/darknet).
