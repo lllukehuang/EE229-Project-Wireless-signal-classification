@@ -1,6 +1,21 @@
-## File Structure
+# **EE229-Project-Wireless-signal-classification**
 
-#### Step1. Put Dataset to input folder
-#### Step2. Run Matlab Codes to get spectrogram(results in outputs folder)
-#### Step3. Run recombination.py to get the correct signal image
-#### Step4. Run process.py to get the cutting result
+#### Introduction
+
+This project shows the complete process from signal cutting to classification. Deep learning method(faster rcnn, yolov4) also supported.
+
+#### File structure (traditional method)
+
+- stft_with_color.m : generate the spectrogram
+- recombination.py: adjusting the spectrogram
+- process.py: run segmentation and get the signal pieces 
+- wash.m: zero-padding
+- hog_kmeans.m: K-Means clustering
+
+#### Wireless Signal Auto-Classification Dataset
+
+
+
+#### Note
+
+The main code of deep learning method references the [Detectron2](https://github.com/facebookresearch/detectron2/tree/master/detectron2) platform and [Darknet](https://github.com/AlexeyAB/darknet).
